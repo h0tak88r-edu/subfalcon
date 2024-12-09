@@ -16,10 +16,11 @@ const (
 
 // Config holds the configuration options.
 type Config struct {
-	DomainList   string
-	Webhook      string
-	Monitor      bool
-	SingleDomain string // New field to store the single domain
+	DomainList    string
+	Webhook       string
+	Monitor       bool
+	SingleDomain  string // New field to store the single domain
+	CheckTakeover bool   // New field
 }
 
 var (
@@ -42,15 +43,16 @@ func PrintLogo() {
 }
 
 // SetConfig sets the configuration options and returns a pointer to the updated Config.
-func SetConfig(domainList, webhook string, monitor bool, singleDomain string) *Config {
+func SetConfig(domainList, webhook string, monitor bool, singleDomain string, checkTakeover bool) *Config {
 	configLock.Lock()
 	defer configLock.Unlock()
 
 	cfg = Config{
-		DomainList:   domainList,
-		Webhook:      webhook,
-		Monitor:      monitor,
-		SingleDomain: singleDomain, // Set the single domain in the config
+		DomainList:    domainList,
+		Webhook:       webhook,
+		Monitor:       monitor,
+		SingleDomain:  singleDomain, // Set the single domain in the config
+		CheckTakeover: checkTakeover,
 	}
 
 	return &cfg
@@ -60,12 +62,12 @@ func SetConfig(domainList, webhook string, monitor bool, singleDomain string) *C
 func GetConfig() *Config {
 	configLock.Lock()
 	defer configLock.Unlock()
-
 	return &cfg
 }
 
 // ValidateFlags validates the required flags.
 func ValidateFlags() error {
+	cfg := GetConfig()
 	// Ensure either a domain list or a single domain is provided
 	if cfg.DomainList == "" && cfg.SingleDomain == "" {
 		return ErrMissingDomainListFlag

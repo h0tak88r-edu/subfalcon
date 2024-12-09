@@ -1,239 +1,132 @@
 package runner
 
 import (
-	"bufio"
-	"bytes"
-	"encoding/json"
-	"fmt"
 	"log"
-	"net/http"
-	"os"
-	"sync"
+	"strings"
 	"time"
 
 	"github.com/cyinnove/subfalcon/config"
 	"github.com/cyinnove/subfalcon/pkg/db"
+	"github.com/cyinnove/subfalcon/pkg/discord"
 	"github.com/cyinnove/subfalcon/pkg/sub88r"
+	"github.com/cyinnove/subfalcon/pkg/takeover"
 )
 
-var cfg = config.GetConfig()
-
-// Run is the main entry point for the runner package.
 func Run() {
-	go db.InitDB(config.DbFile)
+	cfg := config.GetConfig()
 
-	if cfg.Monitor {
-		for {
-			if cfg.SingleDomain != "" {
-				fmt.Println("[+] Monitoring single domain...")
-				ProcessSingleDomain(cfg.SingleDomain)
-			} else {
-				fmt.Println("[+] Monitoring subdomains in domains.txt file...")
-				PassiveSubdomainEnumeration()
-			}
-			time.Sleep(config.MonitorInterval)
-		}
+	// Initialize database
+	db.InitDB(config.DbFile)
+
+	// Process domains
+	var domains []string
+	if cfg.SingleDomain != "" {
+		domains = []string{cfg.SingleDomain}
 	} else {
-		if cfg.SingleDomain != "" {
-			ProcessSingleDomain(cfg.SingleDomain)
-		} else {
-			PassiveSubdomainEnumeration()
+		// Read domains from file logic here
+		// domains = readDomainsFromFile(cfg.DomainList)
+	}
+
+	for {
+		for _, domain := range domains {
+			// Initialize subdomain scraper
+			subber := &sub88r.Subber{
+				Domain:  domain,
+				Results: &sub88r.Results{},
+			}
+
+			// Scrape subdomains from all sources
+			subber.RapidDNS()
+			subber.HackerTarget()
+			subber.Anubis()
+			subber.UrlScan()
+			subber.Otx()
+			subber.CrtSh()
+
+			// Get unique subdomains
+			newSubdomains := getUniqueSubdomains(subber.GetAllSubdomains())
+
+			// Get existing subdomains from database
+			existingSubdomains := db.Getsubdomains(config.DbFile)
+
+			// Find truly new subdomains
+			actualNewSubdomains := findNewSubdomains(newSubdomains, existingSubdomains)
+
+			// Add new subdomains to database
+			if len(actualNewSubdomains) > 0 {
+				db.AddSubdmomains(actualNewSubdomains, config.DbFile)
+
+				// Send new subdomains to Discord if webhook is configured
+				if cfg.Webhook != "" {
+					if err := discord.SendNewSubdomains(cfg.Webhook, actualNewSubdomains); err != nil {
+						log.Printf("Error sending new subdomains to Discord: %v", err)
+					}
+				}
+			}
+
+			// Check for subdomain takeover if enabled
+			if cfg.CheckTakeover {
+				var takeoverResults []*takeover.SubdomainInfo
+
+				for _, subdomain := range newSubdomains {
+					info, err := takeover.CheckTakeover(subdomain)
+					if err != nil {
+						log.Printf("Error checking takeover for %s: %v", subdomain, err)
+						continue
+					}
+
+					// Only append if there's actually a vulnerability
+					if info.IsVulnerable {
+						takeoverResults = append(takeoverResults, info)
+					}
+				}
+
+				// Only send to Discord if there are actual vulnerable subdomains
+				if cfg.Webhook != "" && len(takeoverResults) > 0 {
+					if err := discord.SendTakeoverResults(cfg.Webhook, takeoverResults); err != nil {
+						log.Printf("Error sending takeover results to Discord: %v", err)
+					}
+				}
+			}
 		}
+
+		// If monitoring is not enabled, break the loop
+		if !cfg.Monitor {
+			break
+		}
+
+		// Wait for the monitoring interval before next scan
+		time.Sleep(config.MonitorInterval)
 	}
 }
 
-// ProcessSingleDomain handles a single domain passed via the -d flag.
-func ProcessSingleDomain(domain string) {
-	fmt.Printf("[+] Processing single domain: %s\n", domain)
-
-	subdomains := fetchSubdomainsFromSources(domain)
-
-	oldSubdomains := db.Getsubdomains(config.DbFile)
-	newSubdomains := difference(subdomains, oldSubdomains)
-
-	writeSubdomainsToFile(config.ResultsFileName, subdomains)
-
-	fmt.Println("[+] Subdomains Enumeration completed, Results are saved in subfalconResults.txt.")
-
-	if len(newSubdomains) > 0 {
-		fmt.Printf("[+] %d new subdomains discovered:\n", len(newSubdomains))
-		db.AddSubdmomains(newSubdomains, config.DbFile)
-
-		for _, subdomain := range newSubdomains {
-			fmt.Println(subdomain)
-		}
-		// Notify user via Discord webhook if provided
-		if cfg.Webhook != "" {
-			go sendDiscordNotification(newSubdomains)
-		}
-	}
-}
-
-// PassiveSubdomainEnumeration does passive subdomain enumeration from different resources concurrently
-func PassiveSubdomainEnumeration() {
-	domains, err := readDomainsFromFile(cfg.DomainList)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	uniqueSubdomains := make(map[string]struct{})
-
-	for _, domain := range domains {
-		subdomains := fetchSubdomainsFromSources(domain)
-		for _, subdomain := range subdomains {
-			uniqueSubdomains[subdomain] = struct{}{}
-		}
-	}
-
-	var allSubdomains []string
-	for subdomain := range uniqueSubdomains {
-		allSubdomains = append(allSubdomains, subdomain)
-	}
-
-	oldSubdomains := db.Getsubdomains(config.DbFile)
-	newSubdomains := difference(allSubdomains, oldSubdomains)
-
-	writeSubdomainsToFile(config.ResultsFileName, allSubdomains)
-
-	fmt.Println("[+] Subdomains Enumeration completed, Results are saved in subfalcon Results.txt.")
-
-	if len(newSubdomains) > 0 {
-		fmt.Printf("[+] %d new subdomains discovered:\n", len(newSubdomains))
-		db.AddSubdmomains(newSubdomains, config.DbFile)
-
-		for _, subdomain := range newSubdomains {
-			fmt.Println(subdomain)
-		}
-		// Notify user via Discord webhook if provided
-		if cfg.Webhook != "" {
-			go sendDiscordNotification(newSubdomains)
-		}
-	}
-}
-
-func sendDiscordNotification(subdomains []string) {
-	message := fmt.Sprintf("[Subdomain Monitor] %d new subdomains discovered:\n", len(subdomains))
-	for _, subdomain := range subdomains {
-		message += subdomain + "\n"
-	}
-
-	if err := sendWebhookMessage(cfg.Webhook, message); err != nil {
-		fmt.Printf("[!] Error sending Discord notification: %v\n", err)
-	}
-}
-
-func sendWebhookMessage(webhook, message string) error {
-	payload := map[string]string{"content": message}
-	payloadBytes, err := json.Marshal(payload)
-	if err != nil {
-		return err
-	}
-
-	client := &http.Client{}
-	req, err := http.NewRequest("POST", webhook, bytes.NewBuffer(payloadBytes))
-	if err != nil {
-		return err
-	}
-	req.Header.Set("Content-Type", "application/json")
-
-	resp, err := client.Do(req)
-	if err != nil {
-		return err
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusNoContent {
-		return fmt.Errorf("non-OK status code: %d", resp.StatusCode)
-	}
-
-	return nil
-}
-
-// Fetch subdomains from different sources using subber package
-func fetchSubdomainsFromSources(domain string) []string {
-	var wg sync.WaitGroup
-
-	// Create a Subber instance
-	subber := &sub88r.Subber{
-		Domain:  domain,
-		Results: &sub88r.Results{},
-	}
-
-	// Define a function to fetch subdomains from a source
-	fetch := func(fetchFunc func() error, sourceName, domain string) {
-		defer wg.Done()
-		fmt.Printf("[+] Getting Subdomains from %s for %s...\n", sourceName, domain)
-		if err := fetchFunc(); err != nil {
-			log.Fatalf("Error while getting subdomains from %s for %s: %v\n", sourceName, domain, err)
-		}
-	}
-
-	// Fetch subdomains from each source concurrently
-	wg.Add(6)
-	go fetch(subber.Anubis, "Anubis jdlc.me", domain)
-	go fetch(subber.UrlScan, "UrlScan", domain)
-	go fetch(subber.CrtSh, "CrtSh", domain)
-	go fetch(subber.HackerTarget, "HackerTarget", domain)
-	go fetch(subber.Otx, "Otx", domain)
-	go fetch(subber.RapidDNS, "Otx", domain)
-
-	wg.Wait()
-
-	// Return the combined subdomains
-	return subber.GetAllSubdomains()
-}
-
-func difference(set1, set2 []string) []string {
-	var diff []string
-	set := make(map[string]struct{})
-
-	for _, s := range set2 {
-		set[s] = struct{}{}
-	}
-
-	for _, s := range set1 {
-		if _, ok := set[s]; !ok {
-			diff = append(diff, s)
-		}
-	}
-
-	return diff
-}
-
-func writeSubdomainsToFile(filename string, subdomains []string) {
-	file, err := os.Create(filename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-
-	uniqueSubdomains := make(map[string]struct{})
+func getUniqueSubdomains(subdomains []string) []string {
+	uniqueMap := make(map[string]bool)
+	var result []string
 
 	for _, subdomain := range subdomains {
-		if _, ok := uniqueSubdomains[subdomain]; !ok {
-			file.WriteString(subdomain + "\n")
-			uniqueSubdomains[subdomain] = struct{}{}
+		subdomain = strings.TrimSpace(subdomain)
+		if subdomain != "" && !uniqueMap[subdomain] {
+			uniqueMap[subdomain] = true
+			result = append(result, subdomain)
 		}
 	}
+
+	return result
 }
 
-func readDomainsFromFile(filename string) ([]string, error) {
-	file, err := os.Open(filename)
-	if err != nil {
-		return nil, err
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	data := []string{}
-
-	for scanner.Scan() {
-		data = append(data, scanner.Text())
+func findNewSubdomains(current, existing []string) []string {
+	existingMap := make(map[string]bool)
+	for _, sub := range existing {
+		existingMap[sub] = true
 	}
 
-	if err := scanner.Err(); err != nil {
-		return nil, err
+	var newSubs []string
+	for _, sub := range current {
+		if !existingMap[sub] {
+			newSubs = append(newSubs, sub)
+		}
 	}
 
-	return data, nil
+	return newSubs
 }
